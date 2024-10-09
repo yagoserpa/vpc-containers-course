@@ -1,5 +1,5 @@
 output "ssm_vpc_id" {
-    value = aws_ssm_parameter.vpc.id
+  value = aws_ssm_parameter.vpc.id
 }
 output "ssm_subnet_private_1a" {
   value = aws_ssm_parameter.private_1a.id
